@@ -1,5 +1,7 @@
 # CNN_MINST
-CNN MINST 手写数字识别
+CNN MINST 手写数字识别 中科大自动化系人工智能导论2022大作业三
+
+以下引自作业报告
 <div align='center' ><font size='6'>基于MNIST数据集的手写数字识别 </font></div>
 
 # 实验环境
@@ -21,7 +23,7 @@ numpy 1.22.3
 ----
 
 使用pyTorch定义了一个两层的卷积神经网络，使用MNIST数据集对其进行训练，使用训练后的模型进行手写数字的识别，同时提供了一个查看MNIST数据集的方法。文件中已经给出了一个训练好的模型即`CNN_for_MNIST.pth`；`__pycache__`文件夹似乎是由Python自动生成的，目的是使程序运行的稍快一些【<https://stackoverflow.com/questions/16869024/what-is-pycache>】
-建议助教不用关心或者嫌麻烦直接删除掉该文件夹
+建议不用关心或者嫌麻烦直接删除掉该文件夹
 
 # 代码结构
 
